@@ -11,7 +11,7 @@ button {
   cursor: pointer;
 }
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", "Raleway";
   background: #ffffff;
 }
 /*===============/Common Styles===============*/
@@ -45,3 +45,111 @@ body {
 }
 
 /*===============/Header Styles===============*/
+
+/*===============Hero section===============*/
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-section {
+  background: #2e2f42;
+}
+.order-service-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.order-service-button:hover,
+.order-service-button:focus {
+  background: #404bbf;
+}
+/*===============/Hero section===============*/
+
+/*===============Benefites section===============*/
+.benefites-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.benefites-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*===============/Benefites section===============*/
+
+/*===============Our Team===============*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-section {
+  background: #f4f4fd;
+}
+.team-img {
+  background: #ffffff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.team-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*===============/Our Team===============*/
+
+/*===============Portfolio===============*/
+.portfolio-img {
+  background: #ffffff;
+}
+.portfolio-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*===============/Portfolio===============*/
+
+/*===============Footer===============*/
+.page-footer {
+  background: #2e2f42;
+}
+.white-text {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+/*===============/Footer===============*/
