@@ -65,6 +65,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 .hero-section {
   background-color: #2e2f42;
@@ -108,6 +109,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  text-align: center;
 }
 .team-section {
   background-color: #f4f4fd;
@@ -137,6 +139,9 @@ body {
 /*===============Portfolio===============*/
 .portfolio-section {
   text-transform: capitalize;
+}
+.section-title {
+  text-align: center;
 }
 .portfolio-img {
   background-color: #ffffff;
