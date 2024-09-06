@@ -12,7 +12,7 @@ button {
 }
 body {
   font-family: "Roboto", sans-serif;
-  background: #ffffff;
+  background-color: #ffffff;
   color: #434455;
 }
 .contacts-description {
@@ -64,7 +64,6 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #ffffff;
 }
 .hero-section {
@@ -77,11 +76,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
 }
 .order-service-button:hover,
 .order-service-button:focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 /*===============/Hero section===============*/
 
@@ -107,7 +106,6 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
 }
@@ -116,8 +114,6 @@ body {
 }
 .team-img {
   background-color: #ffffff;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-list-item {
   background-color: #ffffff;
@@ -143,8 +139,7 @@ body {
   text-transform: capitalize;
 }
 .portfolio-img {
-  background: #ffffff;
-  width: "360";
+  background-color: #ffffff;
 }
 .portfolio-list-title {
   font-weight: 500;
