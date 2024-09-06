@@ -68,7 +68,7 @@ body {
   color: #ffffff;
 }
 .hero-section {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .order-service-button {
   font-family: "Roboto", sans-serif;
@@ -112,12 +112,15 @@ body {
   text-transform: capitalize;
 }
 .team-section {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 .team-img {
-  background: #ffffff;
+  background-color: #ffffff;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.team-list-item {
+  background-color: #ffffff;
 }
 .team-list-title {
   font-weight: 500;
@@ -141,7 +144,7 @@ body {
 }
 .portfolio-img {
   background: #ffffff;
-  width: 360;
+  width: "360";
 }
 .portfolio-list-title {
   font-weight: 500;
